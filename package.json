@@ -1,0 +1,29 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "Basic server with express/expressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "Express",
+    "Server",
+    "Backend",
+    "NodeJS"
+  ],
+  "author": "Titus Sutio Fanpula",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
